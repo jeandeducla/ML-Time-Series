@@ -18,12 +18,12 @@ Each sample in the dataset is a 2.56s window sampled at a 50Hz rate which makes 
 
 Below we plot and example of the time series for each activity:
 
-![Accelerometer walking](https://github.com/jeandeducla/ML-Time-Series/images/plots_walking.png)
-![Accelerometer walking upstairs](https://github.com/jeandeducla/ML-Time-Series/images/plots_upstairs.png)
-![Accelerometer walking downstairs](https://github.com/jeandeducla/ML-Time-Series/images/plots_downstairs.png)
-![Accelerometer sitting](https://github.com/jeandeducla/ML-Time-Series/images/plots_sitting.png)
-![Accelerometer standing](https://github.com/jeandeducla/ML-Time-Series/images/plots_standing.png)
-![Accelerometer laying](https://github.com/jeandeducla/ML-Time-Series/images/plots_laying.png)
+![Accelerometer walking](https://github.com/jeandeducla/ML-Time-Series/tree/master/images/plots_walking.png)
+![Accelerometer walking upstairs](https://github.com/jeandeducla/ML-Time-Series/tree/master/images/plots_upstairs.png)
+![Accelerometer walking downstairs](https://github.com/jeandeducla/ML-Time-Series/tree/master/images/plots_downstairs.png)
+![Accelerometer sitting](https://github.com/jeandeducla/ML-Time-Series/tree/master/images/plots_sitting.png)
+![Accelerometer standing](https://github.com/jeandeducla/ML-Time-Series/tree/master/images/plots_standing.png)
+![Accelerometer laying](https://github.com/jeandeducla/ML-Time-Series/tree/master/images/plots_laying.png)
 
 The classification task here consists in recognizing the 6 activities given above. As explained in the introduction, we will either use the raw signals (plots above) or features extracted from these signals. 
 

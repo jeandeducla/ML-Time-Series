@@ -8,17 +8,17 @@ In this repository we will use python's scientific package NumPy, some scikit-le
 
 The 6 different approaches in this repository are:  
 
-- **Convolutional Neural Network with raw data**: a deep learning method largely used for computer vision (2D inputs) but in our case we adapt it to time series data (1D inputs). So instead of 2D convolution layers, we use 1D convolution layers by setting the convolutional height to 1. We add L2 regularization and dropout to prevent overfitting (we only use L2 regularization in this case).
+- **Convolutional Neural Network with raw data**
 
-- **k Nearest Neighbors with raw data**: in this notebook we implement a brute force kNN algorithm and use two different similarity measures for the time series: the euclidian distance and the Dynamic Time Warping distance (DTW). DTW overcomes the problem of synchronisation between two similar time series by associating points that might not face each other. 
+- **k Nearest Neighbors with raw data**
 
-- **k Neareast Neighbors (kNN) with features**: we use the same algorithm presented above but we use features extracted from the time series (features detailed below). In this case we only use euclidian distance to measure similiarity between samples as we are now considering n dimensional vector samples (n being the number of features extracted) and no longer time series.
+- **k Neareast Neighbors (kNN) with features**
 
-- **Neural Network with raw data**: we build a 2 layer neural network with softmax activation and L2 regularization. We feed this network with raw data. 
+- **Neural Network with raw data**
 
-- **Neural Network with features**: we build a 2 layer neural network with softmax activation and L2 regularization and feed it with extracted features from raw data.
+- **Neural Network with features**
 
-- **Support Vector Machine (SVM) with features**: we feed a SVM with RBF kernel with features extracted from raw data. We optimize C and gamma hyperparameters to achieve the best f1 score on the test set.
+- **Support Vector Machine (SVM) with features**
 
 
 ### Time series data: Human Activity Recognition (HAR data)

@@ -4,24 +4,23 @@ This repository shows different approaches to time series classification using m
 
 In this repository we will use python's scientific package NumPy, some scikit-learn features and TensorFlow for convolutional neural networks and neural networks.
 
-### Machine Learning Approaches in this repository
+## Machine Learning Approaches in this repository
 
 The 6 different approaches in this repository are:  
 
-- **Convolutional Neural Network with raw data**
+- **Convolutional Neural Network** with raw data
 
-- **k Nearest Neighbors with raw data**
+- **k Nearest Neighbors (kNN)** with raw data
 
-- **k Neareast Neighbors (kNN) with features**
+- **k Nearest Neighbors** with features
 
-- **Neural Network with raw data**
+- **Neural Network** with raw data
 
-- **Neural Network with features**
+- **Neural Network** with features
 
-- **Support Vector Machine (SVM) with features**
+- **Support Vector Machine (SVM)** with features   
 
-
-### Time series data: Human Activity Recognition (HAR data)
+## Time series data: Human Activity Recognition (HAR data)
 
 The data set we use in this repository is a Human Activity Recognition database available for free [here](https://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) on UCI Machine Learning Repository.
 This data set consists in 3-axial accelerometer and gyroscope signals captured with a smartphone worn on the waist while performing 6 different activities:  
@@ -46,7 +45,7 @@ Below we plot examples of the time series for each activity:
 
 The classification task here consists in recognizing the 6 activities given above. As explained in the introduction, we will either use the raw signals (plots above) or features extracted from these signals. 
 
-### Features extraction
+## Features extraction
 
 In some of the notebooks in this repository we will extract features from the time series and use them as input for the Machine Learning models. In these notebooks we will build helper functions to extract the desired features. 
 We extract  statistical and geometrical features from raw signals and jerk signals (acceleration first derivative), frequency domain features from raw signals and jerk signals. The full list of features is:
